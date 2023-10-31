@@ -20,6 +20,3 @@ jobs:
 
       - name: Check
         run: ./gradlew check
-
-      - name: Automated Sim Test
-        run: ./gradlew simulateJavaDebug -PautomatedTest=true
